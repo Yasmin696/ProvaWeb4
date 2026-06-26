@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta name="description" content="Prova 4" />
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Yasmin Alves e Beatriz Alves">
+    <link rel="shortcut icon" href="img/icone.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cloudflare.com">
+    <title>Prova 4 de Desenvolvimento Web</title>
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-book-open"></i> <span>Clubinho do livro</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#caixa-mes">A Caixa do Mês</a></li>
+                <li><a href="#avaliacoes">Avaliações</a></li>
+                <li><a href="#indique">Indique um Livro</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio" class="hero-section">
+            <div class="hero-content">
+                <h1>Receba caixas literárias exclusivas todo mês</h1>
+                <p>Descubra novos autores, participe de debates ao vivo e transforme o seu hábito de leitura com a nossa
+                    comunidade.</p>
+                <a href="#indique" class="btn-cta">Assinar Clube</a>
+            </div>
+        </section>
+        <section id="caixa-mes" class="books-section">
+            <div class="section-title">
+                <h2>Os Favoritos do Nosso Clube</h2>
+                <p>Estes foram os livros mais comentados e avaliados pelos membros no último mês.</p>
+            </div>
+            <div class="books-grid">
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/colecionador.jpg" alt="Capa do livro O Colecionador">
+                        <span class="badge-tag">Suspense</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>O Colecionador</h3>
+                        <p class="author">Por John Fowles</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(4.7)</span>
+                        </div>
+                        <p class="book-description">
+                            Um suspense psicológico sobre obsessão, poder e isolamento.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/construcao.png" alt="Capa do livro Construção">
+                        <span class="badge-tag">Poesia</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>Construção</h3>
+                        <p class="author">Por Chico Buarque</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <p class="book-description">
+                            Uma obra marcante com poemas e letras que refletem a sociedade brasileira.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/estrela.jpg" alt="Capa do livro A Hora da Estrela">
+                        <span class="badge-tag">Romance</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>A Hora da Estrela</h3>
+                        <p class="author">Por Clarice Lispector</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <p class="book-description">
+                            A emocionante história de Macabéa, uma jovem nordestina em busca de seu lugar no mundo.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/fim.jpg" alt="Capa do livro Fim">
+                        <span class="badge-tag">Drama</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>Fim</h3>
+                        <p class="author">Por Fernanda Torres</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(4.6)</span>
+                        </div>
+                        <p class="book-description">
+                            Cinco amigos relembram suas vidas e escolhas em uma narrativa divertida e emocionante.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/jane.jpg" alt="Capa do livro Jane">
+                        <span class="badge-tag">Romance</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>Jane</h3>
+                        <p class="author">Por Charlotte Brontë</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <span>(5.0)</span>
+                        </div>
+                        <p class="book-description">
+                            Um clássico da literatura que acompanha a jornada de Jane em busca de liberdade e amor.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/labirinto.jpg" alt="Capa do livro O Labirinto do Fauno">
+                        <span class="badge-tag">Fantasia</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>O Labirinto do Fauno</h3>
+                        <p class="author">Por Guillermo del Toro e Cornelia Funke</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <p class="book-description">
+                            Fantasia sombria que mistura realidade e imaginação em plena Espanha pós-guerra.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/metamorfose.jpg" alt="Capa do livro A Metamorfose">
+                        <span class="badge-tag">Clássico</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>A Metamorfose</h3>
+                        <p class="author">Por Franz Kafka</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(4.8)</span>
+                        </div>
+                        <p class="book-description">
+                            Gregor Samsa desperta transformado em um inseto gigante, mudando sua vida para sempre.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                <article class="book-card">
+                    <figure class="book-cover">
+                        <img src="img/Noites Brancas.jpg" alt="Capa do livro Noites Brancas">
+                        <span class="badge-tag">Clássico</span>
+                    </figure>
+                    <div class="book-info">
+                        <h3>Noites Brancas</h3>
+                        <p class="author">Por Fiódor Dostoiévski</p>
+                        <div class="rating">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                            <span>(4.9)</span>
+                        </div>
+                        <p class="book-description">
+                            Um romance delicado sobre amor, solidão e esperança durante quatro noites inesquecíveis.
+                        </p>
+                        <button class="btn-card">Quero este livro</button>
+                    </div>
+                </article>
+                
+            </div>
+        </section>
+        <section id="avaliacoes" class="reviews-section">
+            <div class="section-title">
+                <h2>O que dizem nossos Leitores</h2>
+                <p>Confira os últimos comentários postados na comunidade literária.</p>
+            </div>
+
+            <div class="reviews-container">
+                <blockquote class="review-box">
+                    <p class="comment">"Esse clube mudou minha rotina! 'O Eco dos Pássaros' foi uma leitura
+                        surpreendente, discutimos muito no fórum."</p>
+                    <cite class="user-meta">
+                        <img src="img/usuario1.PNG" alt="Foto de Carlos Eduardo">
+                        <div>
+                            <strong>Carlos Eduardo</strong>
+                            <span>Membro há 6 meses</span>
+                        </div>
+                    </cite>
+                </blockquote>
+                <blockquote class="review-box">
+                    <p class="comment">"A curadoria é impecável. Os brindes que vêm na caixa combinam perfeitamente com
+                        a temática do livro do mês."</p>
+                    <cite class="user-meta">
+                        <img src="img/usuaio2.PNG" alt="Foto de Juliana Reis">
+                        <div>
+                            <strong>Juliana Reis</strong>
+                            <span>Membro há 1 ano</span>
+                        </div>
+                    </cite>
+                </blockquote>
+            </div>
+        </section>
+        <section id="indique" class="form-section">
+            <div class="form-container">
+                <h2>Faça Parte da Comunidade</h2>
+                <p>Deixe seus dados para receber o catálogo completo ou sugerir uma nova obra para nossa próxima caixa
+                    literária.</p>
+                <form action="#" method="POST" class="custom-form">
+                    <div class="input-group">
+                        <label for="nome">Seu Nome</label>
+                        <input type="text" id="nome" placeholder="Ex: Lucas Souza" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Seu Melhor E-mail</label>
+                        <input type="email" id="email" placeholder="Ex: lucas@email.com" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="sugestao">Indique um Livro (Opcional)</label>
+                        <input type="text" id="sugestao" placeholder="Título da obra e autor que você deseja postar">
+                    </div>
+                    <button type="submit" class="btn-submit">Enviar Indicação</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="main-footer">
+        <p>&copy; 2026 Clubinho do livro Clube Literário.</p>
+    </footer>
+</body>
+
+</html>
